@@ -4,11 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LifePrep Academy: College and Career Planning</title>
-    <link rel="shortcut icon" href="https://lifeprep-academy.s3-us-west-1.amazonaws.com/Homepage/LifePrep-Site+Icon.jpg" type="image/x-icon">
+    <title>Educate California: Bridging the Gaps</title>
+    <link rel="shortcut icon" href="https://educate-ca.s3-us-west-1.amazonaws.com/EdCA-SiteImage.jpg" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
+<!-- Begin Constant Contact Active Forms -->
+<script> var _ctct_m = "aabf7510a08ff1839f88f0d1c8d073eb"; </script>
+<script id="signupScript" src="//static.ctctcdn.com/js/signup-form-widget/current/signup-form-widget.min.js" async defer></script>
+<!-- End Constant Contact Active Forms -->
+
 <body class="w-100 mw-100 min-vh-100">
     <header class="header">
         <!-- Navbar -->
@@ -49,7 +54,7 @@
                         </li>
                         &nbsp
                         <li class="nav-item">
-                           <a href="https://educate-ca.org/?give-listener=stripe"> <button class="btn btn-warning font-weight-bold" style="">GIVE TODAY</button></a>
+                           <a href="{% url 'donate' %}"> <button class="btn btn-warning font-weight-bold">GIVE TODAY</button></a>
                         </li>
 
                     </ul>
