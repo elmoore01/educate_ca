@@ -1,0 +1,1 @@
+web: gunicorn educate_ca.wsgi
