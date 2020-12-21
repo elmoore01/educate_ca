@@ -1,1 +1,1 @@
-web: gunicorn educate_ca.wsgi
+web: gunicorn educate_ca.wsgicd
