@@ -25,3 +25,6 @@ def financials_page(request):
 
 def donate_page(request):
     return render(request, 'main_app/donate.html')
+
+def dfactor_page(request):
+    return render(request, 'main_app/board/davidfactor.html')

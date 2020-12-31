@@ -12,4 +12,6 @@ urlpatterns = [
     path('board', views.board_page, name='board'),
     path('financials', views.financials_page, name='financials'),
     path('donate', views.donate_page, name='donate'),
+    path('board/davidfactor/', views.dfactor_page, name='davidfactor'),
+   
 ]
