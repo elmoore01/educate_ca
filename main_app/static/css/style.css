@@ -1,20 +1,20 @@
-/* xs */
+/* xs
 .pic-edca {
     min-height: 30vh;
-}
+} */
 /* sm */
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
 
-}
+} */
 /* md */
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
     .pic-edca {
         min-height: 35vh;
     }
-}
+} */
 /* lg */
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
     .pic-edca {
         min-height: 43vh;
     }
-}
+} */
