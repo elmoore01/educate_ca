@@ -13,5 +13,5 @@ urlpatterns = [
     path('financials', views.financials_page, name='financials'),
     path('donate', views.donate_page, name='donate'),
     path('board/davidfactor/', views.dfactor_page, name='davidfactor'),
-   
+    path('board/ericmoore/', views.ericmoore_page, name="'ericmoore")
 ]

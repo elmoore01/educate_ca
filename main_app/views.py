@@ -28,3 +28,6 @@ def donate_page(request):
 
 def dfactor_page(request):
     return render(request, 'main_app/board/davidfactor.html')
+
+def ericmoore_page(request):
+    return render(request, 'main_app/board/ericmoore.html')
