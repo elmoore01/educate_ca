@@ -2,14 +2,17 @@ xs
 .pic-edca {
     min-height: 43vh;
 }
-/* sm */
-@media (min-width: 768px) {
 
+
+/* sm */
+@media (min-width: 370px) {
+    .pic-edca {
+        min-height: 28vh;
 }
 /* md */
-@media (min-width: 992px) {
+@media (min-width: 750px) {
     .pic-edca {
-        min-height: 35vh;
+        min-height: 32vh;
     }
 }
 /* lg */
