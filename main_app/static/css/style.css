@@ -5,9 +5,9 @@ xs
 
 
 /* sm */
-@media (min-width: 340px) {
+@media (min-width: 300px) {
     .pic-edca {
-        min-height: 28vh;
+        min-height: 30vh;
 }
 /* md */
 @media (min-width: 750px) {
