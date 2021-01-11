@@ -31,3 +31,9 @@ def dfactor_page(request):
 
 def ericmoore_page(request):
     return render(request, 'main_app/board/ericmoore.html')
+
+def irwinjaegar_page(request):
+    return render(request, 'main_app/board/irwinjaegar.html')
+
+def samonacaldwell_page(request):
+    return render(request, 'main_app/board/samonacaldwell.html')
