@@ -35,5 +35,11 @@ def ericmoore_page(request):
 def irwinjaeger_page(request):
     return render(request, 'main_app/board/irwinjaeger.html')
 
+def pamelawiley_page(request):
+    return render(request, 'main_app/board/pamelawiley.html')
+
 def samonacaldwell_page(request):
     return render(request, 'main_app/board/samonacaldwell.html')
+
+def rayroche_page(request):
+    return render(request, 'main_app/board/rayroche.html')

@@ -15,5 +15,7 @@ urlpatterns = [
     path('board/davidfactor/', views.dfactor_page, name='davidfactor'),
     path('board/ericmoore/', views.ericmoore_page, name="'ericmoore"),
     path('board/irwinjaeger/', views.irwinjaeger_page, name="'irwinjaeger"),
+    path('board/pamelawiley/', views.pamelawiley_page, name="'pamelawiley"),
+    path('board/rayroche/', views.rayroche_page, name="'rayroche"),
     path('board/samonacaldwell/', views.samonacaldwell_page, name="'samonacaldwell"),
 ]
