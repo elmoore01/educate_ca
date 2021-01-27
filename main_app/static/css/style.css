@@ -1,13 +1,13 @@
 xs
 .pic-edca {
-    min-height: 35vh;
+    min-height: 32vh;
 }
 
 
 /* sm */
 @media (min-width: 300px) {
     .pic-edca {
-        min-height: 26vh;
+        min-height: 22vh;
 }
 /* md */
 @media (min-width: 750px) {
