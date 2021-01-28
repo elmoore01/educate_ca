@@ -12,6 +12,7 @@ urlpatterns = [
     path('board', views.board_page, name='board'),
     path('financials', views.financials_page, name='financials'),
     path('donate', views.donate_page, name='donate'),
+    path('newsletter', views.newsletter_page, name='newsletter'),
     path('board/davidfactor/', views.dfactor_page, name='davidfactor'),
     path('board/ericmoore/', views.ericmoore_page, name="'ericmoore"),
     path('board/irwinjaeger/', views.irwinjaeger_page, name="'irwinjaeger"),

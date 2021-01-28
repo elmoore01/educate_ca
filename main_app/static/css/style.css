@@ -3,7 +3,6 @@ xs
     min-height: 32vh;
 }
 
-
 /* sm */
 @media (min-width: 300px) {
     .pic-edca {
