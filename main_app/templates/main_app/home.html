@@ -1,22 +1,8 @@
 {% extends 'base.html' %}
 {% block content %}
 
-<div class="container-fluid p-0 m-0" style=" width: cover;">
-  <div id="carouselHomePage" class="carousel slide" data-interval="8000" data-ride="carousel">
-      <!-- Indicators -->
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <div class="p-0 pic-edca m-0 w-100" style="no-repeat center; background-size: cover;">
-        <img src="https://lifeprep-academy.s3-us-west-1.amazonaws.com/Backgrounds/LP+Background6.jpg" class="img-fluid pic-edca" >
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="p-0 pic-edca m-0 w-100" style="no-repeat center; background-size: cover;">
-        <img src="https://educate-ca.s3-us-west-1.amazonaws.com/EdCA-BackgroundPic2.jpg" class="img-fluid pic-edca" >
-        </div>
-      </div>
-    </div>
-  </div>
+<div class="p-0 pic-edca m-0 w-100" style="no-repeat center; background-size: cover;">
+<img src="https://lifeprep-academy.s3-us-west-1.amazonaws.com/Backgrounds/LP+Background6.jpg" class="img-fluid pic-edca" >
 </div>
 
 <!-- Heading -->
@@ -27,20 +13,22 @@
   <hr>
 <div class="container text-center mt-3 mb-4">
   
-  <p class="lead text-left">Educate California's mission is to provide scalable solutions that connect youth, and those who serve youth, with resources to help prepare our future workforce. We offer workshops, forums, and other special events both online and in person. Our key programs include the LifePrep Academy and the Funders Forum. 
+  <p class="lead text-left">Educate California's mission is to provide scalable solutions that connect youth, and those who serve youth, with resources to help prepare our future workforce. We offer workshops, forums, and other special events both online and in person. Our signature program is the LifePrep Academy. 
   
-  <p class="lead text-left">The <a href="{% url 'lifeprep' %}" class="font-weight-bold">LifePrep Academy</a> College, Career and Life Planning curriculum connects families with trusted education resources, while teaching <strong>students and their parents</strong> the knowledge, attitudes and skills students need to enable clear, high quality communication and collaboration with school counselors. Since 1998, LifePrep Academy has helped thousands of students throughout California graduate from high school college and career ready.  
+  <p class="lead text-left">The <a href="{% url 'lifeprep' %}" class="font-weight-bold">LifePrep Academy</a> College, Career and Life Planning curriculum connects families with trusted education resources, while teaching <strong>students and their parents</strong> the knowledge, attitudes and skills students need to enable clear, high quality communication and collaboration with school counselors. Our resources and workshops are vital to the community because they address California’s more than 600:1 student-to-counselor ratio. 
+  
+Since 1998, LifePrep Academy has helped thousands of students graduate from high school college and career ready.</p>  
 
-
-  <p class="lead text-left">Educate California <a href="{% url 'forum' %}" class="font-weight-bold">Funders Forums</a> bring together nonprofit organizations with corporate, foundation and governmental funders that focus on education, youth and low-income families. Our Forums feature engaging conversations with grant-makers, along with a moderated question & answer session where funders discuss their individual approval processes and best practices.</p>
+{% comment %} 
+  <p class="lead text-left">Educate California <a href="{% url 'forum' %}" class="font-weight-bold">Funders Forums</a> bring together nonprofit organizations with corporate, foundation and governmental funders that focus on education, youth and low-income families. Our Forums feature engaging conversations with grant-makers, along with a moderated question & answer session where funders discuss their individual approval processes and best practices.</p> {% endcomment %}
 
 </div>
 
 <div class="jumbotron jumbotron-fluid row mx-auto justify-content-center">
 
 <div class="row container ml-0 mr-0 mx-auto">
-    <h4>FEATURED NONPROFIT PARTNERS</h4>
-    <p>Educate California has partnered with dozens of organizations since our founding in 1998. Below are our current collaborative partners.</p>
+    <h4>NONPROFIT PARTNERS</h4>
+    <p class="lead text-left">Educate California has partnered with dozens of organizations since our founding. Below are our current collaborative partners.</p>
 <br><br>
   <div class="col-md-3">
     <div class="thumbnail">
@@ -87,7 +75,7 @@
 
 <div class="row container ml-0 mr-0 mx-auto">
     <h4>FUNDING PARTNERS</h4>
-    <p>We appreciate the generous support of our <a href="{% url 'partners' %}">corporate, foundation and governmental partners</a>, whose investments make our work possible. The following funders have supported our LifePrep Academy, Funders Forums and mission.</p>
+    <p class="lead text-left">We appreciate the generous support of our <a href="{% url 'partners' %}">corporate, foundation and governmental partners</a>, whose investments make our work possible. The following funders have supported our mission to empower youth.</p>
 </div>
 
 <div class="container mb-5">
